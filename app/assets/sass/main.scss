@@ -1,0 +1,21 @@
+// ABSTRACTS
+@import "./abstracts/variables";
+@import "./abstracts/utils";
+
+
+// BASE
+@import "./base/base";
+@import "./base/typography";
+
+
+// COMPONENTS 
+@import "./components/nav";
+@import "./components/footer";
+
+
+// SECTION
+@import "./section/header";
+@import "./section/benefits";
+@import "./section/works";
+@import "./section/mobiile";
+@import "./section/readmore";

@@ -1,0 +1,114 @@
+.mobile {
+    padding-top: 120px;
+    padding-bottom: 30px;
+    &__body {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        &_block {
+            display: flex;
+            flex-direction: column;
+            .mobile_title {
+                max-width: 459px;
+                width: 100%;
+                font-family: Gilroy-ExtraBold;
+                font-style: normal;
+                font-weight: normal;
+                font-size: 58px;
+                line-height: 68px;
+            }
+            .mobile_text {
+                max-width: 463px;
+                width: 100%;
+                font-family: Gilroy-Regular;
+                font-size: 18px;
+                line-height: 22px;
+                margin-top: 34px;
+            }
+            .mobile__icons {
+                display: flex;
+                margin-top: 36px;
+                .mobile_icon {
+                    margin-right: 20px;
+                }
+            }
+            .mobile_img {
+                margin-top: 60px;
+            }
+        }
+    }
+    &__images img{
+        max-width: 574px;
+        width: 100%;
+    }
+
+}
+@media (max-width: 1200px) {
+    .mobile {
+        &__body {
+            &_block {
+                .mobile_title {
+                    font-size: 54px;
+                }
+                .mobile_img {
+                    max-width: 382px;
+                    width: 100%;
+                }
+            }
+        }
+        &__images {
+            img {
+                max-width: 413px;
+                width: 100%;
+            }
+        }
+    }
+}
+@media (max-width: 992px)  {
+    .mobile {
+        padding-top: 50px;
+        &__body {
+            &_block {
+                
+                .mobile_title  {
+                    font-size: 42px;
+                }
+                .mobile_img {
+                    display: none;
+                }
+                .mobile_text {
+                    max-width: 350px;
+                    margin-top: 0;
+                }
+            }
+        }
+    }
+}
+@media (max-width: 768px) {
+    .mobile {
+        &__body {
+            flex-direction: column;
+            &_block {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                margin: 0 auto;
+                .mobile_title {
+                    font-size: 28px;
+                    text-align: center;
+                }
+                .mobile_text {
+                    text-align: center;
+                }
+                .mobile__icons {
+                    margin-bottom: 30px;
+                }
+            }
+        }
+        &__images {
+            img {
+                max-width: 300px;
+            }
+        }
+    }
+}
