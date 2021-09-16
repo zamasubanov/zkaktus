@@ -59,6 +59,11 @@
            
             flex-direction: column;
         }
+        &__images {
+            max-width: 280px;
+            width: 100%;
+        }
+    
         &__block {
             display: flex;
             justify-content: center;
