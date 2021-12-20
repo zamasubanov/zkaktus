@@ -16,8 +16,6 @@ var stepImg4 = document.querySelector(".step_img4");
 var stepImg5 = document.querySelector(".step_img5");
 
 function scrollFunction() {
-  // if (document.body.scrollTop > worksBody.getBoundingClientRect().top - 450 > -200) {
-  // }
   if (document.body.scrollTop > stepOne.getBoundingClientRect().top - 550) {
     stepImg1.style.display = "block";
     stepImg2.style.display = "none";
@@ -58,9 +56,4 @@ function scrollFunction() {
     stepImg1.style.display = "none";
   }
 }
-"use strict";
-
-$('.nav__burger').on("click", function (e) {
-  $('.nav__burger, .nav__menu').toggleClass('active');
-});
 //# sourceMappingURL=all.js.map

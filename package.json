@@ -1,5 +1,5 @@
 {
-  "name": "stat-stak",
+  "name": "z-kaktus",
   "version": "1.0.0",
   "main": "gulpfile.js",
   "dependencies": {
@@ -25,12 +25,10 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "ishenkulove",
+  "author": "zamasubanov",
   "license": "ISC",
   "repository": {
     "type": "git",
-    "url": "git+https://adilishenkulove@bitbucket.org/statstak-web/statstak-web.git"
-  },
-  "homepage": "https://bitbucket.org/statstak-web/statstak-web#readme",
-  "description": ""
+    "url": "https://github.com/zamasubanov/zkaktus.git"
+  }
 }
