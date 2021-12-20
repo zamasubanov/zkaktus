@@ -153,6 +153,13 @@ li {
 }
 
 @font-face {
+  font-family: Gilroy-Bold;
+  src: url("../../../fonts/Gilroy-Bold.ttf");
+  font-size: 28px;
+  line-height: 36px;
+}
+
+@font-face {
   font-family: Gilroy-Medium;
   src: url("../../../fonts/Gilroy-Medium.ttf");
   font-size: 24px;
@@ -1076,4 +1083,60 @@ li {
   .readmore__block_btn {
     margin-bottom: 20px;
   }
+}
+
+.blog {
+  padding-top: 80px;
+}
+
+.blog__title {
+  max-width: 527px;
+  width: 100%;
+  font-family: Gilroy-Bold;
+  font-size: 28px;
+  line-height: 36px;
+  text-transform: capitalize;
+  color: #273043;
+}
+
+.blog__body {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 48px;
+}
+
+.blog__body_block {
+  max-width: 382px;
+  width: 100%;
+}
+
+.blog__content {
+  background: #F1F5F6;
+  padding: 28px;
+  margin-top: 52px;
+}
+
+.body_block-title {
+  font-family: Gilroy-Bold;
+  font-size: 20px;
+  line-height: 28px;
+  color: #273043;
+  margin-top: 16px;
+}
+
+.body_block-date {
+  font-family: Gilroy-Medium;
+  font-size: 16px;
+  line-height: 24px;
+  text-transform: capitalize;
+  color: #686868;
+  margin-top: 12px;
+}
+
+.body_block-text {
+  font-family: Gilroy-Medium;
+  font-size: 16px;
+  line-height: 24px;
+  color: #292929;
+  margin-top: 12px;
 }

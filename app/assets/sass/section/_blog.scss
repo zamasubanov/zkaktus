@@ -1,0 +1,49 @@
+.blog {
+    padding-top: 80px;
+    &__title {
+        max-width: 527px;
+        width: 100%;
+        font-family: Gilroy-Bold;
+        font-size: 28px;
+        line-height: 36px;
+        text-transform: capitalize;
+        color: #273043;
+    }
+    &__body {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 48px;
+        &_block {
+            max-width: 382px;
+            width: 100%;
+            
+        }
+    }
+    &__content{
+        background: #F1F5F6;
+        padding: 28px;
+        margin-top: 52px;
+    }
+}
+.body_block-title {
+    font-family: Gilroy-Bold;
+    font-size: 20px;
+    line-height: 28px;
+    color: #273043;
+    margin-top: 16px;
+}
+.body_block-date {
+    font-family: Gilroy-Medium;
+    font-size: 16px;
+    line-height: 24px;
+    text-transform: capitalize;
+    color: #686868;
+    margin-top: 12px;
+}
+.body_block-text {
+    font-family: Gilroy-Medium;
+    font-size: 16px;
+    line-height: 24px;
+    color: #292929;
+    margin-top: 12px;
+}

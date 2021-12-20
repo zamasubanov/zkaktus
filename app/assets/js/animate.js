@@ -13,8 +13,6 @@ let stepImg4 = document.querySelector(".step_img4");
 let stepImg5 = document.querySelector(".step_img5");
 
 function scrollFunction() {
-  // if (document.body.scrollTop > worksBody.getBoundingClientRect().top - 450 > -200) {
-  // }
   if (document.body.scrollTop > (stepOne.getBoundingClientRect().top - 550)) {
       stepImg1.style.display = "block";
       stepImg2.style.display = "none";
